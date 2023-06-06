@@ -1,0 +1,239 @@
+.vkui--sizeX-none {
+    background-color: black !important;
+    /* background: #091921 !important; */
+}
+.container{
+    margin: 0 auto;
+    width: 80%;
+}
+.сontainer2{
+    margin: 0 auto;
+    width: 80%;
+    padding-bottom: 10px;
+}
+.nazad{
+    display: flex;
+    align-items: center;
+    
+}
+.icon{
+    margin-right: 10px;
+}
+.opa1{
+    animation-name: circle-to-square1;
+    animation-duration: 5s;
+}
+
+.opa100{
+    animation-name: circle-to-square1;
+    animation-duration: 10s;
+}
+
+.zero1000{
+    opacity: 0;
+}
+
+@keyframes circle-to-square1 {
+    from {
+    opacity: 0;
+}
+
+    to {
+    opacity: 1;
+}
+}
+.redParent{
+    display: flex;
+    justify-content: center;
+    color:red;
+}
+.head{
+    margin-top: 30px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+}
+.papaPhase{
+    padding:  0 10px 0 10px ;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.phaseRight{
+    text-align: end;
+}
+.phaseText{
+    font-size: 4vw;
+}
+.whLink{
+    margin-top: 60px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.izbranParent{
+    display: flex;
+    align-items: center;
+}
+.pstyle{
+    margin-left: 5px;
+    font-size: 15px;
+}
+.izbran{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+.moph{
+    /* border-radius: 10%;
+    box-shadow: 0 -15px 15px rgb(255 255 255 / 5%), inset 0 -15px 15px rgb(255 255 255 / 5%), 0 15px 15px rgb(0 0 0 / 30%), inset 0 15px 15px rgb(0 0 0 / 30%); */
+}
+.zatmen{
+    display: flex;
+    justify-content: center;
+}
+
+.liink{
+    width: 20%;
+}
+.btnLink{
+    width: 100%;
+}
+.izbran1{
+    font-size: 15px;
+    margin-bottom: 30px;
+    margin-top: 20px;
+    padding-top: 10px;
+}
+.parenTextString{
+    display: flex;
+    justify-content: center;
+    padding-top: 25px;
+}
+.textString{
+    font-size: 3vw;
+    font-family: "Roboto","Helvetica","Arial",sans-serif;
+    line-height:1.5;
+}
+
+#mui-1-grid-label{
+    text-transform: capitalize  !important;
+}
+.spin{
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
+	color:white
+	/* margin-top: 100%; */
+}
+.parentZagr{
+	color:white;
+	width: 100%;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
+	margin-top: 20%;
+}
+
+.col-md-12{
+    margin-top: 60px;
+    margin-bottom: 30px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+}
+    
+.animate-charcter{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 3.5vw !important;
+    text-transform: uppercase;
+    background-image: -o-linear-gradient(
+    315deg,
+    #231557 0%,
+    #838383 29%,
+    #b6b6b6 67%,
+    #ffffff 100%
+    );
+    background-image: -o-linear-gradient(
+    315deg,
+    #231557 0%,
+    #838383 29%,
+    #b6b6b6 67%,
+    #ffffff 100%
+    );
+    background-image: linear-gradient(
+    -225deg,
+    #231557 0%,
+    #838383 29%,
+    #b6b6b6 67%,
+    #ffffff 100%
+    );
+    background-size: auto auto;
+    background-clip: border-box;
+    background-size: 200% auto;
+    color: #fff;
+    background-clip: text;
+    text-fill-color: transparent;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-animation: textclip 2s linear infinite;
+            animation: textclip 2s linear infinite;
+    display: inline-block;
+        
+}
+
+@-webkit-keyframes textclip {
+    to {
+        background-position: 200% center;
+    }
+    }
+    
+    @keyframes textclip {
+    to {
+        background-position: 200% center;
+    }
+}
+
+.MuiDateCalendar-root{
+    scale: 1.1;
+    padding-top: 40px ;
+}
+
+@media screen and (max-width:600px) {
+    .pstyle{
+        font-size: 3vw;
+    }
+    .izbran1{
+        font-size: 3vw;
+    }
+    .liink{
+        width: 40%;
+    }
+}
+
+@media screen and (max-width:380px) {
+    .container{
+        width: 100% !important;
+    }
+    .MuiDateCalendar-root{
+        margin: 0 auto !important;
+    }
+
+}
+@media screen and (min-width:410px) {
+    .MuiDateCalendar-root{
+        scale: 1.2;
+    }
+}
